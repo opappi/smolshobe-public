@@ -1,0 +1,11 @@
+<!doctype html>
+<html>
+  <head>
+    <script>
+      // Grab the exact subpage path name and save it, then bounce home
+      sessionStorage.setItem("spa_redirect", window.location.pathname);
+      window.location.replace(window.location.origin);
+    </script>
+  </head>
+  <body></body>
+</html>
